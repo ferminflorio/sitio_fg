@@ -380,12 +380,23 @@ footer {
 
 .slide_item {
 	display: none;
+
 	opacity: 0;
 }
 .slide_item.active-index {
 	display: initial;
+	animation: fadeIn 1.2s;
 	opacity: 1;
 }
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 .top {
 	text-align: right;
 	padding-right: 20px;

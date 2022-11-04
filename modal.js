@@ -41,8 +41,6 @@ document.addEventListener("keydown", (event) => {
 	}
 });
 
-//FALTA ENLAZAR LA FUNCION switchIndex//
-
 document.onkeydown = function (e) {
 	switch (e.key) {
 		case "ArrowLeft":
