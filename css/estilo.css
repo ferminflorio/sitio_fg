@@ -175,7 +175,7 @@ footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 0px 20px;
-	margin-bottom: 100px;
+	margin-bottom: 150px;
 }
 .column1 {
 	text-align: right;
@@ -349,7 +349,7 @@ footer {
 }
 
 .footer_about {
-	height: 850px;
+	height: 800px;
 	width: 99%;
 	background-color: white;
 	border: solid 0.2em;
@@ -562,7 +562,6 @@ footer {
 		justify-content: space-around;
 		padding-top: 30px;
 	}
-
 	.footer_data_adress1 {
 		display: none;
 	}
@@ -571,7 +570,7 @@ footer {
 	}
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
 	.footer_data_adress1 {
 		display: none;
 	}
