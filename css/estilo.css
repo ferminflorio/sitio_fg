@@ -333,8 +333,7 @@ footer {
 }
 
 .proyect_description {
-	text-align: left;
-	padding-left: 7px;
+	text-align: center;
 }
 .grid_description {
 	display: grid;
@@ -431,9 +430,7 @@ footer {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-	.proyect_description {
-		text-align: center;
-	}
+
 	.btn_exit {
 		height: 30px;
 	}
@@ -479,9 +476,7 @@ footer {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-	.proyect_description {
-		text-align: center;
-	}
+
 	.btn_exit {
 		height: 30px;
 	}
@@ -515,9 +510,7 @@ footer {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-	.proyect_description {
-		text-align: center;
-	}
+
 	.btn_exit {
 		height: 30px;
 	}
@@ -551,9 +544,7 @@ footer {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
-	.proyect_description {
-		text-align: center;
-	}
+
 	.grid_contact {
 		display: block;
 	}
