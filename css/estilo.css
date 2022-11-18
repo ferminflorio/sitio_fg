@@ -320,6 +320,7 @@ footer {
 .proyect_wrapper {
 	position: relative;
 	overflow: hidden;
+	padding-bottom: 10px;
 }
 .main_proyect_img {
 	max-width: 100%;
