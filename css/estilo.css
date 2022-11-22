@@ -130,11 +130,17 @@ footer {
 
 .main_logo {
 	display: flex;
+	gap: 8px;
+	padding-left: 15px;
+}
+.logo_fg {
+	height: 50px;
 }
 .name_fg {
 	align-self: flex-end;
 	font-weight: bold;
 	font-size: 14px;
+	margin: 0px 0px 3px 0px;
 }
 
 .grid_index {
