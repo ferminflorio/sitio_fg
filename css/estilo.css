@@ -311,6 +311,7 @@ footer {
 }
 .footer_data_adress2 {
 	width: 40%;
+	text-align: end;
 }
 
 .grid_proyect {
