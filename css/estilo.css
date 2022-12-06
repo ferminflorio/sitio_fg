@@ -263,6 +263,7 @@ footer {
 }
 .proyect_name {
 	padding-top: 2px;
+	font-weight: bolder;
 }
 .proyect_sup {
 	text-transform: none;
@@ -361,6 +362,9 @@ footer {
 
 .proyect_description {
 	text-align: center;
+	text-transform: none;
+	padding-top: 5px;
+	padding-bottom: 3px;
 }
 .grid_description {
 	display: grid;
@@ -372,6 +376,11 @@ footer {
 	display: flex;
 	align-items: center;
 	gap: 9rem;
+}
+
+.grid_description.grid_int {
+	padding-top: 15px;
+	padding-bottom: 35px;
 }
 
 .about_main {
@@ -440,7 +449,7 @@ footer {
 }
 .slide_item.active-index {
 	display: initial;
-	animation: fadeIn 1.2s;
+	animation: fadeIn 1.8s;
 	opacity: 1;
 }
 @keyframes fadeIn {
@@ -523,6 +532,10 @@ footer {
 	}
 	.about_text {
 		padding: 30px 0px 0px 0px;
+	}
+	.logo_fg {
+		height: 30px;
+		margin-top: 10px;
 	}
 }
 
